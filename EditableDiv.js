@@ -58,7 +58,7 @@ module.exports = React.createClass({
 							className: "btn btn-default btn-xs dropdown-toggle", 
 							type: "button", "data-toggle": "dropdown", 
 							"aria-expanded": "true"}, 
-							React.createElement("i", {className: "glyphicon glyphicon-text-size"}), " ", React.createElement("i", {className: "glyphicon glyphicon-triangle-bottom"})
+							React.createElement("i", {className: "fa fa-paragraph"}), " ", React.createElement("i", {className: "fa fa-caret-down"})
 						), 
 						React.createElement("ul", {className: "dropdown-menu", role: "menu"}, 
 							React.createElement("li", null, 
@@ -92,13 +92,13 @@ module.exports = React.createClass({
 
 					React.createElement("div", {className: "btn-group btn-group-xs", role: "group", style: buttonSpacing}, 
 						React.createElement("button", {type: "button", className: "btn btn-default", onClick: this.execCommand.bind(this, 'bold')}, 
-							React.createElement("i", {className: "glyphicon glyphicon-bold"})
+							React.createElement("i", {className: "fa fa-bold"})
 						), 
 						React.createElement("button", {type: "button", className: "btn btn-default", onClick: this.execCommand.bind(this, 'italic')}, 
-							React.createElement("i", {className: "glyphicon glyphicon-italic"})
+							React.createElement("i", {className: "fa fa-italic"})
 						), 
 						React.createElement("button", {type: "button", className: "btn btn-default", onClick: this.execCommand.bind(this, 'underline')}, 
-							React.createElement("i", {className: "glyphicon glyphicon-text-color"})
+							React.createElement("i", {className: "fa fa-underline"})
 						), 
 						React.createElement("button", {type: "button", className: "btn btn-default", onClick: this.execCommand.bind(this, 'strikeThrough')}, 
 							React.createElement("i", {className: "fa fa-strikethrough"})
@@ -109,7 +109,7 @@ module.exports = React.createClass({
 								className: "btn btn-default btn-xs dropdown-toggle", 
 								type: "button", "data-toggle": "dropdown", 
 								"aria-expanded": "true"}, 
-								React.createElement("i", {className: "glyphicon glyphicon-text-height"}), " ", React.createElement("i", {className: "fa fa-caret-down"})
+								React.createElement("i", {className: "fa fa-text-height"}), " ", React.createElement("i", {className: "fa fa-caret-down"})
 							), 
 							React.createElement("ul", {className: "dropdown-menu", role: "menu"}, 
 								React.createElement("li", null, 
@@ -139,10 +139,10 @@ module.exports = React.createClass({
 
 					React.createElement("div", {className: "btn-group btn-group-xs", role: "group", style: buttonSpacing}, 
 						React.createElement("button", {type: "button", className: "btn btn-default", onClick: this.execCommand.bind(this, 'insertOrderedList')}, 
-							React.createElement("i", {className: "glyphicon glyphicon-list"})
+							React.createElement("i", {className: "fa fa-list-ol"})
 						), 
 						React.createElement("button", {type: "button", className: "btn btn-default", onClick: this.execCommand.bind(this, 'insertUnorderedList')}, 
-							React.createElement("i", {className: "glyphicon glyphicon-list"})
+							React.createElement("i", {className: "fa fa-list-ul"})
 						)
 					), 
 
@@ -152,7 +152,7 @@ module.exports = React.createClass({
 							type: "button", 
 							"data-toggle": "dropdown", 
 							"aria-expanded": "false"}, 
-							React.createElement("i", {className: "glyphicon glyphicon-align-left"}), " ", React.createElement("i", {className: "glyphicon glyphicon-triangle-bottom"})							
+							React.createElement("i", {className: "fa fa-align-left"}), " ", React.createElement("i", {className: "fa fa-caret-down"})							
 						), 
 						React.createElement("ul", {className: "dropdown-menu", role: "menu"}, 
 							React.createElement("li", null, 
@@ -174,7 +174,7 @@ module.exports = React.createClass({
 						type: "button", 
 						className: "btn btn-default btn-xs", 
 						onClick: this.execCommand.bind(this, 'removeFormat')}, 
-						React.createElement("i", {className: "glyphicon glyphicon-erase"})
+						React.createElement("i", {className: "fa fa-eraser"})
 					)
 				), 
 
